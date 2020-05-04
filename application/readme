@@ -1,0 +1,21 @@
+Setup Virtual Environment  Application:
+    1. pip3 install virtualenv
+    2. virtualenv venv
+    3. source venv/bin/activate
+    4. pip3 install -r requirements.txt
+
+RUN Application:
+    export FLASK_APP=run.py
+    flask run
+
+RUN sh file:
+    | id | Operating System | Command             |
+    |----|------------------|---------------------|
+    | 1  |    Mac           |  sh file_name.sh    |
+    | 2  |    Linux         |  ./file_name.sh     |
+    | 3  |    Windows       |  bash file_name.sh  |
+
+Docker Commands & Files:
+    1. BUILD Image - build.sh
+    2. Starting Container - starting.sh
+    2. Stopping Container - stopping.sh
