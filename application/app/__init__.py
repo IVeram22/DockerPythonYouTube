@@ -9,11 +9,3 @@ def index():
     with open('Resources/data.txt', 'r') as file:
         data = file.readline()
     return data
-
-
-@app.route('/count/<a>/<b>/<action>')
-def count(a, b, action):
-    if action == '+':
-        return str(int(a) + int(b))
-    else:
-        return str(int(a) - int(b))
