@@ -3,3 +3,6 @@
 application/.idea/
 application/venv/
 application/__pycache__/
+application2/.idea/
+application2/venv/
+application2/__pycache__/
