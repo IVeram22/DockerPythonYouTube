@@ -13,4 +13,3 @@ def index():
         data = file.readline()
     response = requests.post('http://{}/docker/commands'.format(APP_URL))
     return data + "<br>{}".format(response.text)
-    # return APP_URL
