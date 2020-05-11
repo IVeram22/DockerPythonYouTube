@@ -20,7 +20,7 @@ def docker_commands():
     table = '<table style="border-collapse: collapse;border: 1px solid black;">' \
             '<tr><th style="border: 1px solid black;">ID</th>' \
             '<th style="border: 1px solid black;">Command</th>' \
-            '<th style="border: 1px solid black;">Comment</th></tr>'
+            '<th style="border: 1px solid black;">Description</th></tr>'
     for row in rows:
         table += '<tr><td style="border: 1px solid black;">' \
                  '{}</td><td style="border: 1px solid black;">' \
